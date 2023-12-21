@@ -84,6 +84,7 @@ When(/^the user enters invalid number and clicks on another field a message is d
     let element2=await Geniewebpage.Errormessage;
     await expect(element2).toHaveTextContaining("Acceptable Phone Number Format is XXX-XXX-XXXX where X is a Numeric Digit. The dashes at 4th and 8th positions are both optional.");
     console.log(element2.getText());
+    CucumberJson.attach(await browser.takeScreenshot(), 'image/png');
     await Timeout.wait()
 
 });
@@ -97,6 +98,7 @@ Then(/^a flash message is shown on the password field$/, async() => {
     let element3=await Geniewebpage.Passwordfield;
     await expect(element3).toHaveTextContaining("Your password is required.");
     console.log(element3.getText());
+    CucumberJson.attach(await browser.takeScreenshot(), 'image/png');
     await Timeout.wait()
 });
 Given(/^the user enters password and$/, async(table) => {
@@ -112,6 +114,7 @@ Then(/^a flash message is shown as The password and its confirmation do not matc
     let element4=await Geniewebpage.Messageerror;
     await expect(element4).toHaveTextContaining("The password and its confirmation do not match!");
     console.log(element4.getText());
+    CucumberJson.attach(await browser.takeScreenshot(), 'image/png');
     await Timeout.wait()
 });
 Then(/^the user enters the correct password$/, async(table) => {
@@ -154,6 +157,7 @@ Then(/^selects a date from the date picker$/, async() => {
      }
      await Timeout.wait() 
      await Geniewebpage.Startdate.click();
+    CucumberJson.attach(await browser.takeScreenshot(), 'image/png');
      await Timeout.wait() 
  });
  
@@ -182,6 +186,7 @@ When(/^the user selects a Profession  and accordingly selects the specialty$/, a
 
 When(/^user selects more specialties then a flash error message is seen$/, async() => {
     console.log(await Geniewebpage.Specltyerrormessage.getText());
+    CucumberJson.attach(await browser.takeScreenshot(), 'image/png');
 });
 
 Then(/^the user selects another profession and then selects specialty accordingly$/, async() => {
@@ -211,4 +216,5 @@ Then(/^the user selects the required recruiter$/, async() => {
     await Geniewebpage.Recruiter.click();
     await Timeout.wait()
 });
+
 
