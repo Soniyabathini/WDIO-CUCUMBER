@@ -13,7 +13,7 @@ class Geniewebpage{
     }
     get InvalidEmail(){
         return $("//p[normalize-space()='Please enter a valid email address of the format aaa@bbb.ccc']")
-    }
+    } 
     get Emailerror1(){
         return $("(//p[normalize-space()='Your email is invalid.']")
     }
