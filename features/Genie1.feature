@@ -64,5 +64,7 @@ Feature: Genie Website Registration Functionality
   Scenario: User selects Preferred Recruiter
     Given user clicks on recruiter field
     Then the user selects the required recruiter
+    
+    
 
   

@@ -101,6 +101,7 @@ class Geniewebpage{
     get Recruiter(){
         return $("//select[@name='recruiterProfile']")
     }
+    
 }
 
 
