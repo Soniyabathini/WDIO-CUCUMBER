@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "(//p[normalize-space()='This field is required.'])[1]"
+}

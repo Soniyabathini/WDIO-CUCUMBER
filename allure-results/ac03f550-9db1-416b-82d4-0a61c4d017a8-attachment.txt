@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//ul[@class='dropdown-menu dropdown-menu-form'])[1]/li//a[normalize-space()='CT technology']\"}\n  (Session info: chrome=120.0.6099.71)",
+  "stacktrace": "\tGetHandleVerifier [0x00007FF7A36E4D02+56194]\n\t(No symbol) [0x00007FF7A36504B2]\n\t(No symbol) [0x00007FF7A34F76AA]\n\t(No symbol) [0x00007FF7A35416D0]\n\t(No symbol) [0x00007FF7A35417EC]\n\t(No symbol) [0x00007FF7A3584D77]\n\t(No symbol) [0x00007FF7A3565EBF]\n\t(No symbol) [0x00007FF7A3582786]\n\t(No symbol) [0x00007FF7A3565C23]\n\t(No symbol) [0x00007FF7A3534A45]\n\t(No symbol) [0x00007FF7A3535AD4]\n\tGetHandleVerifier [0x00007FF7A3A5D5BB+3695675]\n\tGetHandleVerifier [0x00007FF7A3AB6197+4059159]\n\tGetHandleVerifier [0x00007FF7A3AADF63+4025827]\n\tGetHandleVerifier [0x00007FF7A377F029+687785]\n\t(No symbol) [0x00007FF7A365B508]\n\t(No symbol) [0x00007FF7A3657564]\n\t(No symbol) [0x00007FF7A36576E9]\n\t(No symbol) [0x00007FF7A3648094]\n\tBaseThreadInitThunk [0x00007FF8720A7344+20]\n\tRtlUserThreadStart [0x00007FF8732226B1+33]\n"
+}
