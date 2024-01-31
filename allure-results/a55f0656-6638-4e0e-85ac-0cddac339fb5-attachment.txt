@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//a[@class='item-unselected'])[2]\"}\n  (Session info: chrome=120.0.6099.71)",
-  "stacktrace": "\tGetHandleVerifier [0x00007FF6D21A4D02+56194]\n\t(No symbol) [0x00007FF6D21104B2]\n\t(No symbol) [0x00007FF6D1FB76AA]\n\t(No symbol) [0x00007FF6D20016D0]\n\t(No symbol) [0x00007FF6D20017EC]\n\t(No symbol) [0x00007FF6D2044D77]\n\t(No symbol) [0x00007FF6D2025EBF]\n\t(No symbol) [0x00007FF6D2042786]\n\t(No symbol) [0x00007FF6D2025C23]\n\t(No symbol) [0x00007FF6D1FF4A45]\n\t(No symbol) [0x00007FF6D1FF5AD4]\n\tGetHandleVerifier [0x00007FF6D251D5BB+3695675]\n\tGetHandleVerifier [0x00007FF6D2576197+4059159]\n\tGetHandleVerifier [0x00007FF6D256DF63+4025827]\n\tGetHandleVerifier [0x00007FF6D223F029+687785]\n\t(No symbol) [0x00007FF6D211B508]\n\t(No symbol) [0x00007FF6D2117564]\n\t(No symbol) [0x00007FF6D21176E9]\n\t(No symbol) [0x00007FF6D2108094]\n\tBaseThreadInitThunk [0x00007FF8720A7344+20]\n\tRtlUserThreadStart [0x00007FF8732226B1+33]\n"
-}

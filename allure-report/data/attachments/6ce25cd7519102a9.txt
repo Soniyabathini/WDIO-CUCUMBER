@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//a[text()='Register a new account']"
-}
