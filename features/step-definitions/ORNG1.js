@@ -17,5 +17,5 @@ await Orangehrm.AddEmployees()
 });
 
 Then(/^the user enters all the elements and clicks savebutton$/, async() => {
-await Orangehrm.SaveButton('Bathini','Soniya','Gowda')
+await Orangehrm.SaveButton('Bathini','Sony','Gowda')
 });

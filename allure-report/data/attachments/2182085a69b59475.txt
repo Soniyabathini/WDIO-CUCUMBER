@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[text()='Register a new account']\"}\n  (Session info: chrome=120.0.6099.71)",
+  "stacktrace": "\tGetHandleVerifier [0x00007FF6FEAC4D02+56194]\n\t(No symbol) [0x00007FF6FEA304B2]\n\t(No symbol) [0x00007FF6FE8D76AA]\n\t(No symbol) [0x00007FF6FE9216D0]\n\t(No symbol) [0x00007FF6FE9217EC]\n\t(No symbol) [0x00007FF6FE964D77]\n\t(No symbol) [0x00007FF6FE945EBF]\n\t(No symbol) [0x00007FF6FE962786]\n\t(No symbol) [0x00007FF6FE945C23]\n\t(No symbol) [0x00007FF6FE914A45]\n\t(No symbol) [0x00007FF6FE915AD4]\n\tGetHandleVerifier [0x00007FF6FEE3D5BB+3695675]\n\tGetHandleVerifier [0x00007FF6FEE96197+4059159]\n\tGetHandleVerifier [0x00007FF6FEE8DF63+4025827]\n\tGetHandleVerifier [0x00007FF6FEB5F029+687785]\n\t(No symbol) [0x00007FF6FEA3B508]\n\t(No symbol) [0x00007FF6FEA37564]\n\t(No symbol) [0x00007FF6FEA376E9]\n\t(No symbol) [0x00007FF6FEA28094]\n\tBaseThreadInitThunk [0x00007FF8720A7344+20]\n\tRtlUserThreadStart [0x00007FF8732226B1+33]\n"
+}

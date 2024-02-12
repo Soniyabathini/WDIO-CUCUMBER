@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//p[normalize-space()='Please enter a valid email address of the format aaa@bbb.ccc']"
+}
