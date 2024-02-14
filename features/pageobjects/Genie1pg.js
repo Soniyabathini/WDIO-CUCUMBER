@@ -1,6 +1,6 @@
 class Geniewebpage{
     webpage(){
-        return browser.url("http://geniehealthjobsqa-env-4.eba-kmcgagjd.us-west-1.elasticbeanstalk.com/#/job")
+        return browser.url("http://geniehealthjobsqa-env-2.eba-kmcgagjd.us-west-1.elasticbeanstalk.com/#/job")
     }
     get Login(){
         return $("//a[text()='Login/Register']")
