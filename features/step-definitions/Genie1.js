@@ -3,7 +3,6 @@ const Geniewebpage = require('../pageobjects/Genie1pg');
 const Timeout = require('../pageobjects/Timeout');
 const CucumberJson=require("wdio-cucumberjs-json-reporter");
 
-
 Given(/^the user is on genie webpage$/, async() => {
     await Geniewebpage.webpage();
     await browser.maximizeWindow();
@@ -57,7 +56,6 @@ Then(/^the user gets a message as Please enter a valid email address of the form
 //     console.log(errtxt3.getText());
 //     await Timeout.wait()
 // });
-
 
 Given(/^the user enters valid email$/, async(table) => {
     await Timeout.wait()
